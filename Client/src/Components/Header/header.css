@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-component {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px;
+  width: 40%;
+  height: 65px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  -moz-box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+}
+
+.header-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.header-icon {
+  display: flex;
+  text-align: center;
+}
+
+.header-bell-icon,
+.header-message-icon,
+.header-dots-icon {
+  font-size: 30px;
+  color: rgb(166, 160, 160);
+  margin: 1px;
+}
+
+.header-message-p,
+.header-bell-p,
+.header-dots-p {
+  margin: 0;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: rgb(166, 160, 160);
+}
+
+.header-input {
+  width: 35%;
+  padding: 15px 40px;
+  padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(216, 211, 211);
+  border: none;
+}
+
+.header-image-icon {
+  font-size: 23px;
+  padding: 11.5px 10px;
+  background-color: rgb(216, 211, 211);
+  color: rgb(166, 160, 160);
+  margin-right: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

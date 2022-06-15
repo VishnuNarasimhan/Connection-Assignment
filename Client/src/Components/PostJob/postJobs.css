@@ -1,0 +1,51 @@
+.post-jobs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.post-jobs-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px;
+  position: fixed;
+  z-index: 9999;
+  width: 40%;
+  height: 20px;
+  margin-top: 6.5%;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  -moz-box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+}
+
+.post-jobs-content-p {
+  color: #49a6e9;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.post-jobs-content-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 23%;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-image: linear-gradient(to right, rgb(240, 240, 73), #fe9d13);
+  cursor: pointer;
+}
+
+.post-jobs-content-btn div {
+  margin-left: 25px;
+}
+
+.post-jobs-content-btn-icon {
+  margin-left: 10px;
+}
